@@ -11,28 +11,37 @@
   * [Links](#links)
 
 ## Task :man_technologist:
-For this assignment, we were creating a web application that takes in user notes and saves them. 
+For this assignment, we were tasked with creating an express application that stores information for an ecommerce site such as: Product, Tags. and Categories. The user is able to view all information or add, update and delete information through the backend. The information is displayed as JSON.
 
-The app is initiated at the home page by clicking the 'Get Started' button. Once clicked, you'll be taken to a page that will allow you to create notes with a header. When you're ready to save your note, click the save icon in the top right and the note will save in the left side of the page.
+The app can be initiated by installing the necessary packages and calling __npm start__. 
+
 
 ## Preview
+GET Requests
 
-![Generator Example](README-items/Generator.gif)
+![GET Requests Example](Images/GET_requests.gif)
+
+POST/PUT Requests
+
+![POST/PUT Requests Example](Images/POST-PUT_requests.gif)
+
+DELETE Requests
+
+![Delete Requests Example](Images/DEL_requests.gif)
 
 
 
 ## Thoughts :thinking:
-
+This was pretty difficult for me. I had a hard time figuring if something was wrong with my code. I kept running into the "Wrong Route" error, but I eventually figured it out. Thank goodness for video references, but I feel that I should've been able to figure it out without them.
 
 ## Technologies Used
-Languages: HTML, Javascript, Node.js
+Languages: Node.js
 
-Packages: express, path, fs
+Packages: express, mysql2, sequelize
 
-Frameworks: Bootstrap
 
 ## Links
-Repo: https://github.com/uzobeki/Note-Taker<br>
+Repo: https://github.com/uzobeki/eCommerce-backend<br>
 
 
 
